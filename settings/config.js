@@ -1,12 +1,12 @@
 module.exports = {
   TOKEN:
     process.env.TOKEN ||
-    "BOT_TOKEN",
-  PREFIX: process.env.PREFIX || "BOT_PREFIX",
+    "MTAyMzgwOTc4OTU3NjM2NDA4Mw.G-AYs8.SizRt0VaGfUTIEDycmBNZixjNW99KhZVcs5Jqc",
+  PREFIX: process.env.PREFIX || "a?",
   embed: {
     color: process.env.color || "#220f80",
     wrongcolor: process.env.wrongcolor || "#8a0808",
-    footertext: "Coded By Kabir Singh | Tech Boy Development",
+    footertext: "Coded By PrinceWarrior24#8031",
     footericon: " ",
   },
   emoji: {
@@ -22,7 +22,7 @@ module.exports = {
   },
   // others
   guildID: process.env.guildID || "GUILD_ID", // for slash command
-  mongodb : process.env.mongodb || "MONGO_URL",
+  mongodb : process.env.mongodb || "mongodb+srv://opinthechatguys001:opin2006.@cluster0.frb3qtx.mongodb.net/?retryWrites=true&w=majority",
   filters: {
     clear: "dynaudnorm=f=200",
     lightbass: "bass=g=8,dynaudnorm=f=200",
@@ -72,9 +72,9 @@ module.exports = {
   links: {
     inviteURL:
       process.env.inviteURL ||
-      `https://discord.com/api/oauth2/authorize?client_id=BOTID&permissions=8&scope=bot%20applications.commands`,
-    DiscordServer: process.env.DiscordServer || `https://discord.gg/FuKfAREn9f`,
-    VoteURL: process.env.VoteURL || `https://discord.gg/FuKfAREn9f`,
+      `https://discord.com/api/oauth2/authorize?client_id=1023809789576364083&permissions=8&scope=bot%20applications.commands`,
+    DiscordServer: process.env.DiscordServer || `https://discord.gg/Yc4mySdVTX`,
+    VoteURL: process.env.VoteURL || `https://discord.gg/Yc4mySdVTX`,
   },
   options: {
     embedFooter: true,
